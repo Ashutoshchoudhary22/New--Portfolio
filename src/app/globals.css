@@ -1,1 +1,16 @@
 @import "tailwindcss";
+/* app/globals.css */
+
+:root {
+  --font-inter: 'Inter', sans-serif;
+  --font-space-grotesk: 'Space Grotesk', sans-serif;
+}
+
+body {
+  font-family: var(--font-inter);
+}
+
+.font-space-grotesk {
+  font-family: var(--font-space-grotesk);
+}
+

@@ -8,33 +8,25 @@ import { useEffect, useState, useCallback } from "react";
 import Image from "next/image";
 import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 
-// Debounce utility function
-function debounce(func, wait) {
-  let timeout;
-  return function executedFunction(...args) {
-    const later = () => {
-      clearTimeout(timeout);
-      func(...args);
-    };
-    clearTimeout(timeout);
-    timeout = setTimeout(later, wait);
-  };
-}
-
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isSheetOpen, setIsSheetOpen] = useState(false);
 
-  // Debounced scroll handler with state check
-  const handleScroll = useCallback(
-    debounce(() => {
-      const scrolled = window.scrollY > 0;
-      if (scrolled !== isScrolled) {
-        setIsScrolled(scrolled);
-      }
-    }, 100),
-    [isScrolled]
-  );
+  // Debounced scroll handler with inline debounce logic
+  const handleScroll = useCallback(() => {
+    let timeout: NodeJS.Timeout;
+    return () => {
+      const later = () => {
+        clearTimeout(timeout);
+        const scrolled = window.scrollY > 0;
+        if (scrolled !== isScrolled) {
+          setIsScrolled(scrolled);
+        }
+      };
+      clearTimeout(timeout);
+      timeout = setTimeout(later, 100);
+    };
+  }, [isScrolled])();
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
