@@ -48,6 +48,7 @@
     "next": "^15.3.5",
     "patch-package": "^8.0.0",
     "react": "^18.3.1",
+    "react-day-picker": "^9.8.0",
     "react-dom": "^18.3.1",
     "react-hook-form": "^7.60.0",
     "recharts": "^3.1.0",
@@ -57,13 +58,14 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^18.3.11",
+    "@types/react-day-picker": "^5.2.1",
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.21",
-    "eslint": "^9",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "^15.3.5",
     "postcss": "^8.5.6",
     "tailwindcss": "^4.1.11",
     "typescript": "^5"
