@@ -50,16 +50,7 @@ const skillCategories: SkillCategory[] = [
       { name: "MongoDB", description: "A NoSQL database for flexible, unstructured data storage." },
     ],
   },
-  {
-    category: "Tools & Others",
-    skills: [
-      { name: "Git", description: "A version control system for tracking code changes." },
-      { name: "GitHub", description: "A platform for code hosting and collaboration." },
-      { name: "Postman", description: "A tool for testing and documenting APIs." },
-      { name: "Visual Studio", description: "An IDE for developing applications across platforms." },
-      { name: "VS Code", description: "A lightweight code editor with extensive plugin support." },
-    ],
-  },
+  
 ];
 
 const experiences: Experience[] = [
