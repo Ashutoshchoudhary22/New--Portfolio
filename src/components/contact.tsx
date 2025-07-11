@@ -81,7 +81,7 @@ export function Contact() {
           <h2 className="mx-auto max-w-[700px] text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse">
             Start a Co-Cop
           </h2>
-          <p className="mx-auto max-w-[700px] text-gray-200 md:text-xl mt-4">
+          <p className="mx-auto max-w-[700px] md:text-xl mt-4 font-semibold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-yellow-500 to-blue-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse">
             Got a quest for me or just want to team up? Send a transmission.
           </p>
         </div>

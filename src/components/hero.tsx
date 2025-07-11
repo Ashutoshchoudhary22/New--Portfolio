@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import { ArrowDown } from 'lucide-react';
+import Link from "next/link";
+import { ArrowDown } from "lucide-react";
 import * as React from "react";
 import { Slot } from "@radix-ui/react-slot";
 import { cva, type VariantProps } from "class-variance-authority";
@@ -75,14 +75,14 @@ export function Hero() {
         </video>
       </div>
       <div className="relative z-20 space-y-6 p-8 rounded-lg">
-        <h1
-          className="mx-auto max-w-[700px] text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse"
-        >
+        <h1 className="mx-auto max-w-[700px] text-5xl md:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse">
           Hi I'm Full Stack Developer
         </h1>
-        <p className="mx-auto max-w-[700px] md:text-xl bg-blue-300 bg-clip-text text-transparent animate-pulse">
-          A creative developer forging epic, interactive web applications. Welcome to my world.
+        <p className="mx-auto max-w-[700px] md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-yellow-500 to-blue-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse">
+          A creative developer forging epic, interactive web applications.
+          Welcome to my world.
         </p>
+
         <div className="space-x-4">
           <Button
             asChild

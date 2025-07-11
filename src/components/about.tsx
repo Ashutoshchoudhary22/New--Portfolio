@@ -50,16 +50,6 @@ const skillCategories: SkillCategory[] = [
       { name: "MongoDB", description: "A NoSQL database for flexible, unstructured data storage." },
     ],
   },
-  {
-    category: "Tools & Others",
-    skills: [
-      { name: "Git", description: "A version control system for tracking code changes." },
-      { name: "GitHub", description: "A platform for code hosting and collaboration." },
-      { name: "Postman", description: "A tool for testing and documenting APIs." },
-      { name: "Visual Studio", description: "An IDE for developing applications across platforms." },
-      { name: "VS Code", description: "A lightweight code editor with extensive plugin support." },
-    ],
-  },
 ];
 
 const experiences: Experience[] = [
@@ -144,7 +134,7 @@ export function About() {
           <h2 className="mx-auto max-w-[700px] text-4xl md:text-5xl lg:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse">
             About Me
           </h2>
-          <p className="mx-auto max-w-[700px] text-white text-base md:text-lg lg:text-xl mt-4">
+          <p className="mx-auto mt-4 max-w-[700px] md:text-xl font-semibold bg-clip-text text-transparent bg-gradient-to-r from-orange-400 via-yellow-500 to-blue-500 drop-shadow-[0_4px_8px_rgba(0,0,0,0.5)] animate-pulse">
             Highly motivated and dedicated Computer Science Engineering student
             with a strong academic background. Proficient in programming
             languages such as HTML, CSS, and JavaScript. Skilled in
