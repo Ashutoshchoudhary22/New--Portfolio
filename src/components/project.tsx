@@ -26,7 +26,7 @@ const projects: Project[] = [
     description:
       "A futuristic marketplace for digital assets and game mods, featuring a slick UI and secure transactions.",
     video: "/feature-5.mp4",
-    tags: ["Gaming", "TailwindCSS", "Gsap", "React.js"],
+    tags: ["TailwindCSS", "Gsap", "React.js","Framer-Motion"],
     aiHint: "sci-fi marketplace",
     slug: "nexus-store",
     url: "https://animation-website-azure.vercel.app/",
@@ -36,20 +36,20 @@ const projects: Project[] = [
     description:
       "A social hub for gamers to connect, form guilds, and schedule raids, with a real-time chat and event system.",
     video: "/feature-4.mp4",
-    tags: ["TailwindCss", "React Native", "Firebase", "UX"],
+    tags: ["TailwindCss", "React.js", "Animation", "Framer-Motion"],
     aiHint: "gaming community",
     slug: "guildnet",
     url: "https://lms-landing-page-pi.vercel.app/",
   },
   {
-    title: "Project: TRANSLATOR",
+    title: "Project: ANIME",
     description:
       "An immersive storytelling website for a next-gen tech corporation, using parallax and WebGL for a cinematic feel.",
     video: "/feature-3.mp4",
-    tags: ["Gemini", "Ai", "GSAP", "Next.js"],
+    tags: ["TailwindCss", "React.js", "GSAP", "Framer-Motion"],
     aiHint: "futuristic website",
     slug: "holocorp",
-    url: "https://translater-app.vercel.app/",
+    url: "https://anime-website-kappa-ashen.vercel.app/",
   },
 ];
 
